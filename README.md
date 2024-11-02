@@ -74,6 +74,7 @@ The front end was created using HTML, CSS, and JavaScript, featuring a responsiv
 5. Access the application in your web browser:
 
     For the GET method (to check server status): http://127.0.0.1:5000/
+
     For the POST method (to make predictions): http://127.0.0.1:5000/predict
 
 
@@ -84,7 +85,7 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 ### Instructions to Customize
 
-- Replace `<[your-repo-url](https://github.com/srinivas254/Restaurant-Ratings-Prediction)>` with the actual URL of your GitHub repository.
+- Replace `<https://github.com/srinivas254/Restaurant-Ratings-Prediction>` with the actual URL of your GitHub repository.
 - You may want to add sections for installation instructions, usage examples, or additional details specific to your project.
 
 Feel free to adjust any section to better fit your project! If you need more help, just let me know!
