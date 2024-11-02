@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Rating Prediction</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+
+  <body>
+
+    <h1>Restaurant Ratings Prediction</h1>
+
+    <form id="prediction-form" method="POST">
+      <input type="text" name="online_order" id="online_holder" placeholder="Order Online (1/0)" required /><br />
+
+      <input type="text" name="book_table" id="book_table" placeholder="Book Table (1/0)" required /><br />
+
+      <input type="text" name="votes" id="votes" placeholder="Votes" required /><br />
+
+      <input type="text" name="location" id="location" placeholder="Location (No.)" required /><br />
+
+      <input type="text" name="rest_type" id="rest_type" placeholder="Restaurant Type (No.)" required /><br />
+
+      <input type="text" name="cuisines" id="cuisines" placeholder="Cuisines (No.)" required /><br />
+
+      <input type="text" name="cost" id="cost" placeholder="Cost" required /><br />
+
+      <input type="text" name="menu_item"id="menu_item" placeholder="Menu Items (No.)" required /><br />
+
+      <input type="submit" value="Predict" />
+
+      <div id="result"></div>
+    </form>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>
