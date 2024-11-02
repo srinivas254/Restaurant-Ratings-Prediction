@@ -60,22 +60,31 @@ The front end was created using HTML, CSS, and JavaScript, featuring a responsiv
    git clone <https://github.com/srinivas254/Restaurant-Ratings-Prediction>
 
 2. Navigate to the project directory:
+   ```bash
    
    cd C:\Users\AZhar ALi\Downloads\Restaurant Ratings Prediction
 
-3. Install the required packages:
+4. Install the required packages:
+   ```bash
 
    pip install -r requirements.txt
 
-4. Run the Flask application:
+6. Run the Flask application:
+   ```bash
 
    python app.py
 
-5. Access the application in your web browser:
+8. Access the application in your web browser:
 
-    For the GET method (to check server status): http://127.0.0.1:5000/
+  For the GET method (to check server status):
+    ```bash
 
-    For the POST method (to make predictions): http://127.0.0.1:5000/predict
+    http://127.0.0.1:5000/
+    
+  For the POST method (to make predictions):
+     ```bash
+
+     http://127.0.0.1:5000/predict
 
 
 License
