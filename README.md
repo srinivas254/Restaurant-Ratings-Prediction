@@ -64,23 +64,21 @@ The front end was created using HTML, CSS, and JavaScript, featuring a responsiv
    
    cd C:\Users\AZhar ALi\Downloads\Restaurant Ratings Prediction
 
-4. Install the required packages:
+3. Install the required packages:
    ```bash
 
    pip install -r requirements.txt
 
-6. Run the Flask application:
+4. Run the Flask application:
    ```bash
 
    python app.py
 
-8. Access the application in your web browser:
-
-   a. For the GET method (to check server status):
+5. Access the GET method in your web browser:
    ```bash
-        http://127.0.0.1:5000/
-    
-  b. For the POST method (to make predictions):
+   http://127.0.0.1:5000/
+
+6. Access the POST method in postman client application:
   ```bash
       http://127.0.0.1:5000/predict
 
