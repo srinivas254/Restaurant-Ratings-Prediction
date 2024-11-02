@@ -79,11 +79,12 @@ The front end was created using HTML, CSS, and JavaScript, featuring a responsiv
    http://127.0.0.1:5000/
 
 6. Access the POST method in postman client application:
-  ```bash
+   ```bash
       http://127.0.0.1:5000/predict
 
 
-License
+
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
