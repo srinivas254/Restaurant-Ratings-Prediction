@@ -81,9 +81,7 @@ The front end was created using HTML, CSS, and JavaScript, featuring a responsiv
 6. Access the POST method in postman client application:
    ```bash
       http://127.0.0.1:5000/predict
-
-
-
+   
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
