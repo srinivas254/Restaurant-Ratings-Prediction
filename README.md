@@ -76,15 +76,13 @@ The front end was created using HTML, CSS, and JavaScript, featuring a responsiv
 
 8. Access the application in your web browser:
 
-  For the GET method (to check server status):
-    ```bash
-
-    http://127.0.0.1:5000/
+   a. For the GET method (to check server status):
+   ```bash
+        http://127.0.0.1:5000/
     
-  For the POST method (to make predictions):
-     ```bash
-
-     http://127.0.0.1:5000/predict
+  b. For the POST method (to make predictions):
+  ```bash
+      http://127.0.0.1:5000/predict
 
 
 License
